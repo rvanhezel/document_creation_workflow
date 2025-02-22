@@ -40,7 +40,9 @@ pip install -r requirements.txt
 
 ```bash
 # Create a .env file in the project root directory with:
-API_KEY = your_key
+OPENAI_API_KEY = your_openai_key
+SERVICE_ACCOUNT_FILE = your_service_account_key
+GDRIVE_FOLDER_ID = your_gdrive_key
 ```
 
 ## 🎬 Running the Application
